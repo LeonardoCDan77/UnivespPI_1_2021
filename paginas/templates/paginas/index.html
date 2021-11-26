@@ -1,0 +1,393 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <title>Economize água</title>
+<!--
+
+TemplateMo 548 Training Studio
+
+https://templatemo.com/tm-548-training-studio
+
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/font-awesome.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-training-studio.css' %}">
+
+    </head>
+    
+    <body>
+
+    <!-- jQuery -->
+    <script src="{% static 'assets/js/jquery-2.1.0.min.js' %}"></script>
+
+    <!-- Bootstrap -->
+    <script src="{% static 'assets/js/popper.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+
+    <!-- Plugins -->
+    <script src="{% static 'assets/js/scrollreveal.min.js' %}"></script>
+    <script src="{% static 'assets/js/waypoints.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'assets/js/imgfix.min.js' %}"></script> 
+    <script src="{% static 'assets/js/mixitup.js' %}"></script> 
+    <script src="{% static 'assets/js/accordions.js' %}"></script>
+    
+    <!-- Global Init -->
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">Economize<em> Água</em></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Principal</a></li>
+                            <li class="scroll-to-section"><a href="#features">Dicas</a></li>
+                            <li class="scroll-to-section"><a href="#our-classes">Curiosidades</a></li>
+                            <li class="scroll-to-section"><a href="#schedule">Consumo</a></li>
+                            
+                            <li class="main-button"><a href="#"></a></li>
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <video autoplay muted loop id="bg-video">
+            <source src="{% static 'assets/images/gotaPrincipal.mp4' %}" type="video/mp4" />
+        </video>
+
+        <div class="video-overlay header-text">
+            <div class="caption">
+                <h6>Água um recurso finito, economize! </h6>
+                <h2>Faça a sua parte nessa luta!</h2>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** Features Item Start ***** -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Dicas de como  <em>economizar</em> água</h2>
+                        <img src="{% static 'assets/images/line-dec.png' %}" alt="waves">
+                        <p>Com pequenas mudanças de hábitos diários você pode ajudar
+                        na economia desse recurso fundamental para a vida em nosso planeta.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{% static 'assets/images/torneira.png' %}" alt="">
+                            </div>
+                            <div class="right-content">
+                                <h4>Banho</h4>
+                                <p>Um banho de 15 minutos sem fechar o chuveiro pode gastar cerca de 140 litros de água, já fechando para ensaboar-se o consumo fica por volta de 90 litros.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{% static 'assets/images/torneira.png' %}" alt="">
+                            </div>
+                            <div class="right-content">
+                                <h4>Lavando o carro</h4>
+                                <p>Lavando o carro utilizando baldes gasta-se cerca de 60 litros, fazendo o mesmo serviço usando a mangueira o consumo salta para 560 litros.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{% static 'assets/images/torneira.png' %}" alt="">
+                            </div>
+                            <div class="">
+                                <h4>Escovando os dentes</h4>
+                                <p>Ao escovar os dentes, 5 minutos, com a torneira aberta vão-se 12 litros, porém controlando a torneira o consumo cai para 500ml.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{% static 'assets/images/torneira.png' %}" alt="">
+                            </div>
+                            <div class="right-content">
+                                <h4>Lavando louça</h4>
+                                <p>Lavando a louça, torneira parcialmente aberta, o consumo de água a cada 15 minutos é de 240 litros, controlando a torneira cai para 20 litros.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{% static 'assets/images/torneira.png' %}" alt="">
+                            </div>
+                            <div class="right-content">
+                                <h4>Lavando roupa</h4>
+                                <p>Organizar-se para usar o mínimo possível a máquina de lavar roupas, pois lavadoras menores de até 10 kg consomem de 82 a 135 litros de água por ciclo.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{% static 'assets/images/torneira.png' %}" alt="">
+                            </div>
+                            <div class="right-content">
+                                <h4>Lavar o quintal</h4>
+                                <p>Utilizando a água da máquina de lavar roupa a economia pode chegar a 150 litros de água.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Item End ***** -->
+
+    <!-- ***** Call to Action Start ***** -->
+    <section class="section" id="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <h2>Não <em>pense</em>, comece <em>hoje</em>!</h2>
+                        <p>Não deixe para amanhã o que você pode começar a fazer hoje, filtre sua procrastinação, economize água!</p>
+                        <div class="main-button scroll-to-section">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Call to Action End ***** -->
+
+    <!-- ***** Our Classes Start ***** -->
+    <section class="section" id="our-classes">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Curiosidades sobre a <em> Água</em></h2>
+                        <img src="{% static 'assets/images/line-dec.png' %}" alt="">
+                        <p>Água e a humanidade.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="tabs">
+              <div class="col-lg-4">
+                <ul>
+                  <li><a href='#tabs-1'><img src="{% static 'assets/images/tabs-first-icon.png' %}" alt="">Civilização humana</a></li>
+                  <li><a href='#tabs-2'><img src="{% static 'assets/images/tabs-first-icon.png' %}" alt="">Aquífero Guarani</a></a></li>
+                  <li><a href='#tabs-3'><img src="{% static 'assets/images/tabs-first-icon.png' %}" alt="">Falta d´agua</a></a></li>
+                  <li><a href='#tabs-4'><img src="{% static 'assets/images/tabs-first-icon.png' %}" alt="">Carne vermelha</a></a></li>
+                  
+                </ul>
+              </div>
+              <div class="col-lg-8">
+                <section class='tabs-content'>
+                  <article id='tabs-1'>
+                    <img src="{% static 'assets/images/crescenteFertil.jpg' %}" alt="">
+                    <h4>Civilização Humana</h4>
+                    <p>Grandes civilizações nasceram as margens de terras férteis banhadas por grandes rios.</p>
+                    
+                  </article>
+                  <article id='tabs-2'>
+                    <img src="{% static 'assets/images/aquiferoGuarani.jpg' %}" alt="">
+                    <h4>Aquífero Guarani</h4>
+                    <p> O Aquífero Guarani é o maior do mundo. Ele se estende por uma área média de 1,2 milhão de km<sup>2</sup> e reserva, aproximadamente, 45 mil Km<sup>3</sup> de água.</p>
+                    
+                  </article>
+                  <article id='tabs-3'>
+                    <img src="{% static 'assets/images/semAgua.jpg' %}" alt="">
+                    <h4>Falta d'agua</h4>
+                    <p>Na América Latina são 36 milhões de pessoas sem acesso à água de boa qualidade.</p>
+                    
+                  </article>
+                  <article id='tabs-4'>
+                    <img src="{% static 'assets/images/carneVermelha.jpg' %}" alt="">
+                    <h4>Carne vermelha</h4>
+                    <p>Para produzir 1kg de carne vermelha são necessários 15 mil litros de água.</p>
+
+                  </article>
+                </section>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Our Classes End ***** -->
+    
+    <section class="section" id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading dark-bg">
+                        <h2>Consumo per  <em>Capita</em></h2>
+                       
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Abaixo o consumo per capita de alguns país, a OMS recomenda o consumo diário de 100 litros por pessoa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="filters">
+                        <ul class="schedule-filter">
+                            <li class="active" data-tsfilter="monday">País</li>
+                            <li data-tsfilter="tuesday">Consumo</li>
+                        
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="schedule-table filtering">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="day-time">EUA</td>
+                                    <td class="monday ts-item show" data-tsmeta="monday">575 litros</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Itália</td>
+                                    <td class="monday ts-item show" data-tsmeta="monday">375 litros</td>
+                                 
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Brasil</td>
+                                    <td class="monday ts-item show" data-tsmeta="monday">185 litros</td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td class="day-time">China</td>
+                                    <td class="monday ts-item show" data-tsmeta="monday">85 litros</td>
+                             
+                                </tr>
+                                    <td class="day-time">Etiópia</td>
+                                    <td class="monday ts-item show" data-tsmeta="monday">15 litros</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** Testimonials Starts ***** -->
+    <section class="section" id="trainers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Projeto Integrador em Computação I<em> (Grupo 1)</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Trabalho desenvolvido por alunos da Univesp, polo de Rio Claro, eixo da computação, ingressos de 2020.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/logoUnivesp.jpeg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>Equipe</span>
+                            <h4>Anderson</h4>
+                            <h4>Claudinei</h4>
+                            <h4>José Roberto</h4>
+                            <h4>Leonardo</h4>
+                            <h4>Luiz Ricardo</h4>
+                            <h4>Rafael</h4>
+                            <h4>Ronaldo</h4>
+                            <p></p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- ***** Testimonials Ends ***** -->
+    
+
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2020 Training Studio
+                    
+                    - Designed by <a rel="nofollow" href="https://templatemo.com" class="tm-text-link" target="_parent">TemplateMo</a></p>
+                    
+                    <!-- You shall support us a little via PayPal to info@templatemo.com -->
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/mixitup.js"></script> 
+    <script src="assets/js/accordions.js"></script>
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>

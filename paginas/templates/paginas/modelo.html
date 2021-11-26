@@ -1,0 +1,80 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{% static 'css/backGroundIndex.css' %}">
+
+    {% block titulo %}
+    <title>Modelo</title>
+    {% endblock %}
+
+    <style>
+        .menu{
+            border: 1px solid #000000;
+            padding:07px;
+            background-color: #31B404;
+            margin: 0px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        .rodape{
+            border: 1px solid #000000;
+            padding:7px;
+            background-color: #31B404;
+            margin: 0px;
+            position: relative;
+            top:865px;
+            left: 0px;
+        }
+        .consumoMenu{
+            border: 1px solid #d40e40
+        }
+        .consumoTela1{
+            border: 1px solid #d40e40;
+            padding: 7px;
+            background-color:  #d0d6cd;
+            margin: 70px;
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 5px;
+        }
+        .telaConsumo{
+            display: flex;
+        }
+    
+
+    </style>
+
+</head>
+<body>
+
+    {% block menu %}
+    <div class="menu">
+        Home
+    </div>
+    {% endblock %}
+
+    {%  block Conteudo %}
+    <div>
+        Conteudo
+    </div>
+    {% endblock %}
+
+
+    {% block rodapé %}
+    <div class="rodape">
+        Univesp
+    </div>
+    {% endblock %}
+
+       
+</body>
+</html>
