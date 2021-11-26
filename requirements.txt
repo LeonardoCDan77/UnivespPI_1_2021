@@ -78,7 +78,7 @@ pep8==1.7.1
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.1.2
-pluggy==0.13.0
+gitpluggy==0.13.0
 ply==3.11
 Printrun==2.0.0rc7
 prompt-toolkit==3.0.14
@@ -104,7 +104,6 @@ PyQt5-sip==12.8.1
 pyrsistent==0.15.5
 pyserial==3.5
 PySimpleSOAP==1.16.2
-pysmbc==1.0.23
 pysvn==1.9.12
 python-apt==2.2.1
 python-dateutil==2.8.1
