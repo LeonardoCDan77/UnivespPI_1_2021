@@ -78,7 +78,6 @@ pep8==1.7.1
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.1.2
-Pivy==0.6.5
 pluggy==0.13.0
 ply==3.11
 Printrun==2.0.0rc7
